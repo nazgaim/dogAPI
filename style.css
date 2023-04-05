@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Poppins&display=swap");
+
+.image-container {
+  display: flex;
+}
+
+nav.navbar {
+  border: 10px black;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  color: black;
+}
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  padding-left: 20px;
+  max-width: 50%;
+}
+
+img {
+  height: 80vh;
+  width: 40vw;
+}
+
+h3#curs {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  word-spacing: 5px;
+}
+
+h1 {
+  margin-top: 50;
+  font-size: 50px;
+}
+
+p {
+  font-size: 24px;
+}
+
+button {
+  background-color: royalblue;
+  padding: 15px 32px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+a button {
+  color: burlywood;
+}
+footer {
+  margin-top: 130px;
+  border-top: solid lightgray 1px;
+  width: 103%;
+  margin-left: 10px;
+  background: lightgray;
+  height: 100px;
+}
+
+footer,
+#bottom a {
+  color: pink;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
